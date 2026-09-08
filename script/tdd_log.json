@@ -386,9 +386,39 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8ebb3af0c9aba0a1f92b525a2dcbd8b5f14fd6fe",
     "commitName": "refactor: En test de Mostrar descuentos",
     "commitTimestamp": 1788859895010,
     "testId": 15
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788860218444,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788860691879,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788860833944,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el Precio Total aplicando la fórmula (Precio Neto + Impuesto - Descuento",
+    "commitTimestamp": 1788861048449,
+    "testId": 16
   }
 ]

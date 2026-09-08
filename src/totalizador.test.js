@@ -31,4 +31,14 @@ describe("Totalizador", () => {
         expect(totalizador.obtenerDescuento(1000, 10)).toEqual("Descuento (10%): 1000.00");
         expect(totalizador.obtenerDescuento(3000, 10)).toEqual("Descuento (15%): 4500.00");
     });
+
+    it("deberia calcular el precio total (neto + impuesto - descuento)", () => {
+        let totalizador = new Totalizador();
+
+        expect(totalizador.calcularPrecioTotal(20, 3, "UT")).toEqual("Precio total (descuento e impuesto): $63.99");
+        expect(totalizador.calcularPrecioTotal(20, 3, "NV")).toEqual("Precio total (descuento e impuesto): $64.80");
+        expect(totalizador.calcularPrecioTotal(20, 3, "TX")).toEqual("Precio total (descuento e impuesto): $63.75");
+        expect(totalizador.calcularPrecioTotal(20, 3, "AL")).toEqual("Precio total (descuento e impuesto): $62.40");
+        expect(totalizador.calcularPrecioTotal(20, 3, "CA")).toEqual("Precio total (descuento e impuesto): $64.95");
+    });
 });

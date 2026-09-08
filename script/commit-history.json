@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8ebb3af0c9aba0a1f92b525a2dcbd8b5f14fd6fe",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-08T09:31:32.000Z",
       "message": "refactor: En test de Mostrar descuentos",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/8ebb3af0c9aba0a1f92b525a2dcbd8b5f14fd6fe"
     },
     "stats": {
       "total": 19,
@@ -300,6 +300,25 @@
     },
     "coverage": 89.29,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-08T09:50:46.000Z",
+      "message": "feat: Mostrar el Precio Total aplicando la fórmula (Precio Neto + Impuesto - Descuento",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 19,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 90.91,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

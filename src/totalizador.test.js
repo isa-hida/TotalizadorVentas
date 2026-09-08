@@ -20,4 +20,9 @@ describe("Totalizador", () => {
         expect(totalizador.calcularImpuesto(20, 3, "AL")).toEqual("Impuesto para AL(%4): $2.40");
         expect(totalizador.calcularImpuesto(20, 3, "CA")).toEqual("Impuesto para CA(%8.25): $4.95");
     });
+
+    it("deberia mostrar 3% de descuento para un total de 1000 o mas", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerDescuento(100, 10)).toEqual("Descuento (3%): 30");
+    });
 });

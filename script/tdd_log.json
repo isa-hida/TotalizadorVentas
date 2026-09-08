@@ -222,9 +222,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "381d5a540bb9ac4caae6a5a129f89cd6e9cbc5ae",
     "commitName": "refactor:Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje",
     "commitTimestamp": 1788844996588,
     "testId": 9
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788845175527,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788845228383,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el precio total con el porcentaje de descuento que corresponde a 1000",
+    "commitTimestamp": 1788845274800,
+    "testId": 10
   }
 ]

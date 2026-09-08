@@ -33,6 +33,18 @@ class Totalizador {
 
         return "Impuesto para " + estado + "(%" + porcentajeTexto + "): $" + impuesto.toFixed(2);
     }
+
+    obtenerDescuento(cantidad, precio) {
+        let neto = cantidad * precio;
+        let porcentaje = 0;
+
+        if (neto >= 1000) {
+            porcentaje = 3;
+        }
+
+        let montoDescuento = neto * (porcentaje / 100);
+        return "Descuento (" + porcentaje + "%): " + montoDescuento;
+    }
 }
 
 export default Totalizador;

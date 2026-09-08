@@ -40,4 +40,9 @@ describe("Totalizador", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularImpuestoAL(20, 3)).toEqual("Impuesto para AL(%4.00): $2.40");
     });
+
+    it("deberia mostrar la linea de impuesto calculada para el estado CA", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularImpuestoCA(20, 3)).toEqual("Impuesto para CA(%8.25): $4.95");
+    });
 });

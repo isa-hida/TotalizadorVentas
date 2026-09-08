@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "06027f733109bc8f1fbd876354ff5477c07b5beb",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-08T05:15:39.000Z",
       "message": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de AL",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/06027f733109bc8f1fbd876354ff5477c07b5beb"
     },
     "stats": {
       "total": 10,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-08T05:17:33.000Z",
+      "message": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

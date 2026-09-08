@@ -42,6 +42,11 @@ class Totalizador {
         let impuesto = neto * 0.0400;
         return "Impuesto para AL(%4.00): $" + impuesto.toFixed(2);
     }
+    calcularImpuestoCA(cantidad, precio) {
+        let neto = cantidad * precio;
+        let impuesto = neto * 0.0825;
+        return "Impuesto para CA(%8.25): $" + impuesto.toFixed(2);
+    }
 }
 
 export default Totalizador;

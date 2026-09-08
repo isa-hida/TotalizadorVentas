@@ -186,9 +186,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "06027f733109bc8f1fbd876354ff5477c07b5beb",
     "commitName": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de AL",
     "commitTimestamp": 1788844541545,
     "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788844617773,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788844640260,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA",
+    "commitTimestamp": 1788844655683,
+    "testId": 8
   }
 ]

@@ -208,9 +208,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ec776a8a8a9bcf9b35b7dfc1ef04cacc75ab3029",
     "commitName": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA",
     "commitTimestamp": 1788844655683,
     "testId": 8
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788844901632,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor:Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje",
+    "commitTimestamp": 1788844996588,
+    "testId": 9
   }
 ]

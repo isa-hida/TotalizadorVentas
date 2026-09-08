@@ -11,38 +11,13 @@ describe("Totalizador", () => {
         expect(totalizador.calcularPrecioNeto(20, 3)).toEqual("Precio neto: 60");
     });
 
-    it("deberia devolver el porcentaje de impuesto correcto para cada estado de la tabla", () => {
+    it("deberia calcular el impuesto de forma generalizada para cada estado", () => {
         let totalizador = new Totalizador();
 
-        expect(totalizador.obtenerPorcentajeImpuesto("UT")).toEqual("6.65%");
-        expect(totalizador.obtenerPorcentajeImpuesto("NV")).toEqual("8.00%");
-        expect(totalizador.obtenerPorcentajeImpuesto("TX")).toEqual("6.25%");
-        expect(totalizador.obtenerPorcentajeImpuesto("AL")).toEqual("4.00%");
-        expect(totalizador.obtenerPorcentajeImpuesto("CA")).toEqual("8.25%");
-    });
-
-    it("deberia mostrar la linea de impuesto calculada para el estado UT", () => {
-        let totalizador = new Totalizador();
-        expect(totalizador.calcularImpuestoUT(20, 3)).toEqual("Impuesto para UT(%6.65): $3.99");
-    });
-
-    it("deberia mostrar la linea de impuesto calculada para el estado NV", () => {
-        let totalizador = new Totalizador();
-        expect(totalizador.calcularImpuestoNV(20, 3)).toEqual("Impuesto para NV(%8.00): $4.80");
-    });
-
-    it("deberia mostrar la linea de impuesto calculada para el estado TX", () => {
-        let totalizador = new Totalizador();
-        expect(totalizador.calcularImpuestoTX(20, 3)).toEqual("Impuesto para TX(%6.25): $3.75");
-    });
-
-    it("deberia mostrar la linea de impuesto calculada para el estado AL", () => {
-        let totalizador = new Totalizador();
-        expect(totalizador.calcularImpuestoAL(20, 3)).toEqual("Impuesto para AL(%4.00): $2.40");
-    });
-
-    it("deberia mostrar la linea de impuesto calculada para el estado CA", () => {
-        let totalizador = new Totalizador();
-        expect(totalizador.calcularImpuestoCA(20, 3)).toEqual("Impuesto para CA(%8.25): $4.95");
+        expect(totalizador.calcularImpuesto(20, 3, "UT")).toEqual("Impuesto para UT(%6.65): $3.99");
+        expect(totalizador.calcularImpuesto(20, 3, "NV")).toEqual("Impuesto para NV(%8): $4.80");
+        expect(totalizador.calcularImpuesto(20, 3, "TX")).toEqual("Impuesto para TX(%6.25): $3.75");
+        expect(totalizador.calcularImpuesto(20, 3, "AL")).toEqual("Impuesto para AL(%4): $2.40");
+        expect(totalizador.calcularImpuesto(20, 3, "CA")).toEqual("Impuesto para CA(%8.25): $4.95");
     });
 });

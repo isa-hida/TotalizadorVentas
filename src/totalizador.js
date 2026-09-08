@@ -8,44 +8,30 @@ class Totalizador {
         return "Precio neto: " + neto;
     }
 
-    obtenerPorcentajeImpuesto(estado) {
-        const impuestos = {
-            "UT": "6.65%",
-            "NV": "8.00%",
-            "TX": "6.25%",
-            "AL": "4.00%",
-            "CA": "8.25%"
+    obtenerTasasImpuesto() {
+        return {
+            "UT": 0.0665,
+            "NV": 0.0800,
+            "TX": 0.0625,
+            "AL": 0.0400,
+            "CA": 0.0825
         };
-
-        return impuestos[estado] || "0%";
     }
 
-    calcularImpuestoUT(cantidad, precio) {
-        let neto = cantidad * precio;
-        let impuesto = neto * 0.0665;
-        return "Impuesto para UT(%6.65): $" + impuesto.toFixed(2);
+    obtenerPorcentajeImpuesto(estado) {
+        let tasas = this.obtenerTasasImpuesto();
+        let tasa = tasas[estado] || 0;
+        return (tasa * 100).toFixed(2) + "%";
     }
 
-    calcularImpuestoNV(cantidad, precio) {
+    calcularImpuesto(cantidad, precio, estado) {
         let neto = cantidad * precio;
-        let impuesto = neto * 0.0800;
-        return "Impuesto para NV(%8.00): $" + impuesto.toFixed(2);
-    }
+        let tasas = this.obtenerTasasImpuesto();
+        let tasa = tasas[estado] || 0;
+        let impuesto = neto * tasa;
+        let porcentajeTexto = (tasa * 100).toString();
 
-    calcularImpuestoTX(cantidad, precio) {
-        let neto = cantidad * precio;
-        let impuesto = neto * 0.0625;
-        return "Impuesto para TX(%6.25): $" + impuesto.toFixed(2);
-    }
-    calcularImpuestoAL(cantidad, precio) {
-        let neto = cantidad * precio;
-        let impuesto = neto * 0.0400;
-        return "Impuesto para AL(%4.00): $" + impuesto.toFixed(2);
-    }
-    calcularImpuestoCA(cantidad, precio) {
-        let neto = cantidad * precio;
-        let impuesto = neto * 0.0825;
-        return "Impuesto para CA(%8.25): $" + impuesto.toFixed(2);
+        return "Impuesto para " + estado + "(%" + porcentajeTexto + "): $" + impuesto.toFixed(2);
     }
 }
 

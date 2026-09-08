@@ -323,17 +323,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8319648216b2427a6c525251f592250a607afdab",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-08T10:01:48.000Z",
       "message": "feat: Mostrar un mensaje de error cuando se ingresa una cantidad o precio inválido (negativa o cero)",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/8319648216b2427a6c525251f592250a607afdab"
     },
     "stats": {
       "total": 8,
       "additions": 8,
       "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 91.43,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-08T10:09:03.000Z",
+      "message": "fix: html, diseño de interfaz",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 50,
+      "additions": 33,
+      "deletions": 17,
       "date": "2026-09-08"
     },
     "coverage": 91.43,

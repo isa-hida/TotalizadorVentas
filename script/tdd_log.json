@@ -446,9 +446,15 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8319648216b2427a6c525251f592250a607afdab",
     "commitName": "feat: Mostrar un mensaje de error cuando se ingresa una cantidad o precio inválido (negativa o cero)",
     "commitTimestamp": 1788861712198,
     "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: html, diseño de interfaz",
+    "commitTimestamp": 1788862145648,
+    "testId": 18
   }
 ]

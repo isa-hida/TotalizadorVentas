@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "56b9da8c8ea1c2f5937cb83371e63b05ec48c7fe",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-08T09:20:05.000Z",
       "message": "feat: Mostrar el precio total con el porcentaje de descuento que corresponde a 30000",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/56b9da8c8ea1c2f5937cb83371e63b05ec48c7fe"
     },
     "stats": {
       "total": 9,
@@ -281,6 +281,25 @@
     },
     "coverage": 89.29,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-08T09:31:32.000Z",
+      "message": "refactor: En test de Mostrar descuentos",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 3,
+      "deletions": 16,
+      "date": "2026-09-08"
+    },
+    "coverage": 89.29,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -21,27 +21,14 @@ describe("Totalizador", () => {
         expect(totalizador.calcularImpuesto(20, 3, "CA")).toEqual("Impuesto para CA(%8.25): $4.95");
     });
 
-    it("deberia mostrar 3% de descuento para un total de 1000 o mas", () => {
+    it("deberia mostrar el descuento", () => {
         let totalizador = new Totalizador();
+
+        expect(totalizador.obtenerDescuento(20, 3)).toEqual("Descuento (0%): 0.00");
         expect(totalizador.obtenerDescuento(100, 10)).toEqual("Descuento (3%): 30.00");
-    });
-
-    it("deberia mostrar 5% de descuento para un total de 3000 o mas", () => {
-        let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuento(300, 10)).toEqual("Descuento (5%): 150.00");
-    });
-    it("deberia mostrar 7% de descuento para un total de 7000 o mas", () => {
-        let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuento(700, 10)).toEqual("Descuento (7%): 490.00");
-    });
-
-    it("deberia mostrar 10% de descuento para un total de 10000 o mas", () => {
-        let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuento(1000, 10)).toEqual("Descuento (10%): 1000.00");
-    });
-
-    it("deberia mostrar 15% de descuento para un total de 30000 o mas", () => {
-        let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuento(3000, 10)).toEqual("Descuento (15%): 4500.00");
     });
 });

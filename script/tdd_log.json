@@ -458,9 +458,15 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "436d41bfc9f1f6f70744f32333a805a4acb97c5f",
     "commitName": "fix: presenter",
     "commitTimestamp": 1788863010685,
     "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: añadiendo un archivo a git ignore",
+    "commitTimestamp": 1788863649762,
+    "testId": 20
   }
 ]

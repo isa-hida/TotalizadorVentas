@@ -25,4 +25,9 @@ describe("Totalizador", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularImpuestoUT(20, 3)).toEqual("Impuesto para UT(%6.65): $3.99");
     });
+
+    it("deberia mostrar la linea de impuesto calculada para el estado NV", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularImpuestoNV(20, 3)).toEqual("Impuesto para NV(%8.00): $4.80");
+    });
 });

@@ -38,14 +38,16 @@ class Totalizador {
         let neto = cantidad * precio;
         let porcentaje = 0;
 
-        if (neto >= 3000) {
+        if (neto >= 7000) {
+            porcentaje = 7;
+        } else if (neto >= 3000) {
             porcentaje = 5;
         } else if (neto >= 1000) {
             porcentaje = 3;
         }
 
         let montoDescuento = neto * (porcentaje / 100);
-        return "Descuento (" + porcentaje + "%): " + montoDescuento;
+        return "Descuento (" + porcentaje + "%): " + montoDescuento.toFixed(2);
     }
 }
 

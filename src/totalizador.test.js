@@ -34,4 +34,9 @@ describe("Totalizador", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuento(700, 10)).toEqual("Descuento (7%): 490.00");
     });
+
+    it("deberia mostrar 10% de descuento para un total de 10000 o mas", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerDescuento(1000, 10)).toEqual("Descuento (10%): 1000.00");
+    });
 });

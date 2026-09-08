@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ab5c1e1eae22c3d5b1c29708b5f6c8f0758f93ab",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-08T09:14:09.000Z",
       "message": "feat: Mostrar el precio total con el porcentaje de descuento que corresponde a 7000",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/ab5c1e1eae22c3d5b1c29708b5f6c8f0758f93ab"
     },
     "stats": {
       "total": 14,
@@ -243,6 +243,25 @@
     },
     "coverage": 87.5,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-08T09:16:58.000Z",
+      "message": "feat: Mostrar el precio total con el porcentaje de descuento que corresponde a 10000",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 88.46,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

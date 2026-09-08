@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "0231384a08f9ef78ee583974798c5866c1c0009e",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-08T04:20:04.000Z",
       "message": "feat: Mostrar la cantidad de producto",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/0231384a08f9ef78ee583974798c5866c1c0009e"
     },
     "stats": {
       "total": 12,
       "additions": 12,
       "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-08T04:38:24.000Z",
+      "message": "feat: Mostrar el precio de producto",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 4,
+      "deletions": 3,
       "date": "2026-09-08"
     },
     "coverage": 100,

@@ -16,9 +16,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0231384a08f9ef78ee583974798c5866c1c0009e",
     "commitName": "feat: Mostrar la cantidad de producto",
     "commitTimestamp": 1788841207999,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788841492885,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788842245766,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el precio de producto",
+    "commitTimestamp": 1788842307549,
+    "testId": 1
   }
 ]

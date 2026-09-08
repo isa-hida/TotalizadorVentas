@@ -21,5 +21,8 @@ describe("Totalizador", () => {
         expect(totalizador.obtenerPorcentajeImpuesto("CA")).toEqual("8.25%");
     });
 
-
+    it("deberia mostrar la linea de impuesto calculada para el estado UT", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularImpuestoUT(20, 3)).toEqual("Impuesto para UT(%6.65): $3.99");
+    });
 });

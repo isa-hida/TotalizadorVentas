@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b5913590516136110a29b8c2044740b5dd677503",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-08T05:05:30.000Z",
       "message": "feat:Mostrar el porcentaje de impuesto que tiene el estado seleccionado",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/b5913590516136110a29b8c2044740b5dd677503"
     },
     "stats": {
       "total": 23,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-08T05:07:33.000Z",
+      "message": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de UT",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

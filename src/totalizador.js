@@ -19,6 +19,12 @@ class Totalizador {
 
         return impuestos[estado] || "0%";
     }
+
+    calcularImpuestoUT(cantidad, precio) {
+        let neto = cantidad * precio;
+        let impuesto = neto * 0.0665;
+        return "Impuesto para UT(%6.65): $" + impuesto.toFixed(2);
+    }
 }
 
 export default Totalizador;

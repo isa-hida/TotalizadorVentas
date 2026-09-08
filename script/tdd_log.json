@@ -98,9 +98,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b5913590516136110a29b8c2044740b5dd677503",
     "commitName": "feat:Mostrar el porcentaje de impuesto que tiene el estado seleccionado",
     "commitTimestamp": 1788843933256,
     "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788843979145,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788844013216,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de UT",
+    "commitTimestamp": 1788844056647,
+    "testId": 4
   }
 ]

@@ -41,4 +41,11 @@ describe("Totalizador", () => {
         expect(totalizador.calcularPrecioTotal(20, 3, "AL")).toEqual("Precio total (descuento e impuesto): $62.40");
         expect(totalizador.calcularPrecioTotal(20, 3, "CA")).toEqual("Precio total (descuento e impuesto): $64.95");
     });
+
+    it("deberia mostrar mensaje de error en el detalle si la cantidad o el precio son 0 o negativos", () => {
+        let totalizador = new Totalizador();
+
+        expect(totalizador.mostrarDetalle(0, 10)).toEqual("Error: La cantidad y el precio deben ser mayores a 0");
+        expect(totalizador.mostrarDetalle(5, -10)).toEqual("Error: La cantidad y el precio deben ser mayores a 0");
+    });
 });

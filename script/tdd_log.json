@@ -416,9 +416,39 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c1211925ca5b3fc81db937050aece266e5add5a0",
     "commitName": "feat: Mostrar el Precio Total aplicando la fórmula (Precio Neto + Impuesto - Descuento",
     "commitTimestamp": 1788861048449,
     "testId": 16
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788861295468,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788861413211,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788861545653,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar un mensaje de error cuando se ingresa una cantidad o precio inválido (negativa o cero)",
+    "commitTimestamp": 1788861712198,
+    "testId": 17
   }
 ]

@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c1211925ca5b3fc81db937050aece266e5add5a0",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-08T09:50:46.000Z",
       "message": "feat: Mostrar el Precio Total aplicando la fórmula (Precio Neto + Impuesto - Descuento",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/c1211925ca5b3fc81db937050aece266e5add5a0"
     },
     "stats": {
       "total": 19,
@@ -319,6 +319,25 @@
     },
     "coverage": 90.91,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-08T10:01:48.000Z",
+      "message": "feat: Mostrar un mensaje de error cuando se ingresa una cantidad o precio inválido (negativa o cero)",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 91.43,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

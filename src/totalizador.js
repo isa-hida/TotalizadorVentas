@@ -1,5 +1,6 @@
 class Totalizador {
     mostrarDetalle(cantidad, precio) {
+        if (cantidad <= 0 || precio <= 0) return "Error: La cantidad y el precio deben ser mayores a 0";
         return "Cantidad de item: " + cantidad + "\nPrecio por item: " + precio;
     }
 

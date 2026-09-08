@@ -38,7 +38,9 @@ class Totalizador {
         let neto = cantidad * precio;
         let porcentaje = 0;
 
-        if (neto >= 1000) {
+        if (neto >= 3000) {
+            porcentaje = 5;
+        } else if (neto >= 1000) {
             porcentaje = 3;
         }
 

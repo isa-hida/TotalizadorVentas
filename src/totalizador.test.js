@@ -30,4 +30,9 @@ describe("Totalizador", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularImpuestoNV(20, 3)).toEqual("Impuesto para NV(%8.00): $4.80");
     });
+
+    it("deberia mostrar la linea de impuesto calculada para el estado TX", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularImpuestoTX(20, 3)).toEqual("Impuesto para TX(%6.25): $3.75");
+    });
 });

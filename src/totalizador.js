@@ -31,6 +31,12 @@ class Totalizador {
         let impuesto = neto * 0.0800;
         return "Impuesto para NV(%8.00): $" + impuesto.toFixed(2);
     }
+
+    calcularImpuestoTX(cantidad, precio) {
+        let neto = cantidad * precio;
+        let impuesto = neto * 0.0625;
+        return "Impuesto para TX(%6.25): $" + impuesto.toFixed(2);
+    }
 }
 
 export default Totalizador;

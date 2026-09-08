@@ -11,4 +11,15 @@ describe("Totalizador", () => {
         expect(totalizador.calcularPrecioNeto(20, 3)).toEqual("Precio neto: 60");
     });
 
+    it("deberia devolver el porcentaje de impuesto correcto para cada estado de la tabla", () => {
+        let totalizador = new Totalizador();
+
+        expect(totalizador.obtenerPorcentajeImpuesto("UT")).toEqual("6.65%");
+        expect(totalizador.obtenerPorcentajeImpuesto("NV")).toEqual("8.00%");
+        expect(totalizador.obtenerPorcentajeImpuesto("TX")).toEqual("6.25%");
+        expect(totalizador.obtenerPorcentajeImpuesto("AL")).toEqual("4.00%");
+        expect(totalizador.obtenerPorcentajeImpuesto("CA")).toEqual("8.25%");
+    });
+
+
 });

@@ -7,6 +7,18 @@ class Totalizador {
         let neto = cantidad * precio;
         return "Precio neto: " + neto;
     }
+
+    obtenerPorcentajeImpuesto(estado) {
+        const impuestos = {
+            "UT": "6.65%",
+            "NV": "8.00%",
+            "TX": "6.25%",
+            "AL": "4.00%",
+            "CA": "8.25%"
+        };
+
+        return impuestos[estado] || "0%";
+    }
 }
 
 export default Totalizador;

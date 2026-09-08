@@ -35,4 +35,9 @@ describe("Totalizador", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularImpuestoTX(20, 3)).toEqual("Impuesto para TX(%6.25): $3.75");
     });
+
+    it("deberia mostrar la linea de impuesto calculada para el estado AL", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularImpuestoAL(20, 3)).toEqual("Impuesto para AL(%4.00): $2.40");
+    });
 });

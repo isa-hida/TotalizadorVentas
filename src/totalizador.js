@@ -37,6 +37,11 @@ class Totalizador {
         let impuesto = neto * 0.0625;
         return "Impuesto para TX(%6.25): $" + impuesto.toFixed(2);
     }
+    calcularImpuestoAL(cantidad, precio) {
+        let neto = cantidad * precio;
+        let impuesto = neto * 0.0400;
+        return "Impuesto para AL(%4.00): $" + impuesto.toFixed(2);
+    }
 }
 
 export default Totalizador;

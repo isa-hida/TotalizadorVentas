@@ -26,14 +26,22 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
+  const costoEnvioVolumetrico = totalizador.calcularCostoEnvio(cantidad, precio, pesoVolumetrico);
+  if (costoEnvioVolumetrico.startsWith("Error")) {
+    div.innerHTML = "<p>" + costoEnvioVolumetrico + "</p>";
+    return;
+  }
+
   const neto = totalizador.calcularPrecioNeto(cantidad, precio);
   const descuento = totalizador.obtenerDescuento(cantidad, precio);
   const impuesto = totalizador.calcularImpuesto(cantidad, precio, estado);
-  const total = totalizador.calcularPrecioTotal(cantidad, precio, estado);
+  const total = totalizador.calcularPrecioTotal(cantidad, precio, estado, categoria, pesoVolumetrico, clienteValue);
   const impuestoAdicional = totalizador.calcularImpuestoAdicional(cantidad, precio, categoria);
   const descuentoAdicional = totalizador.obtenerDescuentoAdicional(cantidad, precio, categoria);
-  const costoEnvio = totalizador.calcularCostoEnvio(cantidad, precio, pesoVolumetrico);
+  const costoEnvioVolumetrico1 = totalizador.calcularCostoEnvio(cantidad, precio, pesoVolumetrico);
+  const costoEnvioCliente = totalizador.obtenerDescuentoEnvioCliente(cantidad, precio, clienteValue);
   const costoEnvioTotal = totalizador.calcularCostoEnvioTotal(cantidad, precio, pesoVolumetrico, clienteValue);
+  const descuentoFijoCliente = totalizador.obtenerDescuentoFijoCliente(cantidad, precio, categoria, clienteValue);
 
   div.innerHTML =
     "<p>" + neto + "</p>" +
@@ -41,7 +49,9 @@ form.addEventListener("submit", (event) => {
     "<p>" + impuesto + "</p>" +
     "<p>" + impuestoAdicional + "</p>" +
     "<p>" + descuentoAdicional + "</p>" +
-    "<p>" + costoEnvio + "</p>" +
+    "<p>" + costoEnvioVolumetrico1 + "</p>" +
+    "<p>" + costoEnvioCliente + "</p>" +
     "<p>" + costoEnvioTotal + "</p>" +
+    "<p>" + descuentoFijoCliente + "</p>" +
     "<p>" + total + "</p>";
 });

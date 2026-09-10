@@ -1007,17 +1007,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f84e2243faa114a739e529d27d1b353772eadf5d",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T09:27:46.000Z",
       "message": "feat: Mostrar un mensaje de error cuando se ingresa un peso volumétrico invalido (negativa o cero).",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/f84e2243faa114a739e529d27d1b353772eadf5d"
     },
     "stats": {
       "total": 26,
       "additions": 24,
       "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.23,
+    "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T09:48:48.000Z",
+      "message": "fix: presenter",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 13,
+      "deletions": 3,
       "date": "2026-09-10"
     },
     "coverage": 96.23,

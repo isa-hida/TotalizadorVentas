@@ -950,12 +950,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "227de05a93781d16d0110c91dec15c6e0a627e7b",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T09:12:34.000Z",
       "message": "feat: Mostrar el descuento de monto fijo de $100 para cliente Recurrente con precio neto mayor a 3000 y categoría Alimentos.",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/227de05a93781d16d0110c91dec15c6e0a627e7b"
     },
     "stats": {
       "total": 13,
@@ -964,6 +964,25 @@
       "date": "2026-09-10"
     },
     "coverage": 95.83,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T09:14:33.000Z",
+      "message": "feat: Mostrar el descuento de monto fijo de $200 para cliente Especial con precio neto mayor a 7000 y categoría Electrónicos.",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.92,
     "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"

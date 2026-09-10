@@ -154,6 +154,8 @@ class Totalizador {
         let descuentoFijo = 0;
         if (tipoCliente === "Recurrente" && neto > 3000 && categoria === "Alimentos") {
             descuentoFijo = 100;
+        } else if (tipoCliente === "Especial" && neto > 7000 && categoria === "Electronicos") {
+            descuentoFijo = 200;
         }
         return "Descuento fijo cliente: $" + descuentoFijo.toFixed(2);
     }

@@ -102,5 +102,6 @@ describe("Totalizador", () => {
     it("deberia mostrar el descuento de monto fijo segun el cliente, neto y categoria", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuentoFijoCliente(1000, 4, "Alimentos", "Recurrente")).toEqual("Descuento fijo cliente: $100.00");
+        expect(totalizador.obtenerDescuentoFijoCliente(8000, 1, "Electronicos", "Especial")).toEqual("Descuento fijo cliente: $200.00");
     });
 });

@@ -74,5 +74,6 @@ describe("Totalizador", () => {
     it("deberia mostrar el costo de envio por peso volumetrico", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularCostoEnvio(20, 3, 10)).toEqual("Costo de envio: $0.00");
+        expect(totalizador.calcularCostoEnvio(20, 3, 12)).toEqual("Costo de envio: $3.50");
     });
 });

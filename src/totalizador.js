@@ -133,6 +133,8 @@ class Totalizador {
         let porcentaje = 0;
         if (tipoCliente === "Recurrente") {
             porcentaje = 0.5;
+        } else if (tipoCliente === "Antiguo Recurrente") {
+            porcentaje = 1;
         }
         let montoDescuento = neto * (porcentaje / 100);
 

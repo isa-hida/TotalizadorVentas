@@ -456,17 +456,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7fdaab1228d2d73a17799a5a768039ab7610c458",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T06:47:49.000Z",
       "message": "feat: Mostrar el impuesto adicional para la categoría Material de escritorio y Varios (0%)",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/7fdaab1228d2d73a17799a5a768039ab7610c458"
     },
     "stats": {
       "total": 1,
       "additions": 1,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 92.86,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T06:51:18.000Z",
+      "message": "feat: Mostrar el impuesto adicional para la categoría Muebles(3%)",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 5,
+      "deletions": 3,
       "date": "2026-09-10"
     },
     "coverage": 92.86,

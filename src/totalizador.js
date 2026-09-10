@@ -66,8 +66,8 @@ class Totalizador {
 
     obtenerTasasImpuestoAdicional() {
         return {
-            "Bebidas alcoholicas": 0.07
-            //"Muebles": 0.03,
+            "Bebidas alcoholicas": 0.07,
+            "Muebles": 0.03,
             //"Electronicos": 0.04,
             //"Vestimenta": 0.02
         };

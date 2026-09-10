@@ -608,17 +608,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "16f3b0b702553764f6768f006db43a6f00dfa27f",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T07:51:54.000Z",
       "message": "feat: Mostrar el Precio Total añadiendo el descuento adicional.",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/16f3b0b702553764f6768f006db43a6f00dfa27f"
     },
     "stats": {
       "total": 13,
       "additions": 10,
       "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 94.44,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T07:54:16.000Z",
+      "message": "feat: Mostrar Peso Volumétrico del producto",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
       "date": "2026-09-10"
     },
     "coverage": 94.44,

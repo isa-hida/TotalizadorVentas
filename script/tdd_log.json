@@ -878,9 +878,15 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "16f3b0b702553764f6768f006db43a6f00dfa27f",
     "commitName": "feat: Mostrar el Precio Total añadiendo el descuento adicional.",
     "commitTimestamp": 1789026715285,
     "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar Peso Volumétrico del producto",
+    "commitTimestamp": 1789026857260,
+    "testId": 34
   }
 ]

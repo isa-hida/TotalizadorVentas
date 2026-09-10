@@ -27,11 +27,13 @@ form.addEventListener("submit", (event) => {
   const impuesto = totalizador.calcularImpuesto(cantidad, precio, estado);
   const total = totalizador.calcularPrecioTotal(cantidad, precio, estado);
   const impuestoAdicional = totalizador.calcularImpuestoAdicional(cantidad, precio, categoria);
+  const descuentoAdicional = totalizador.obtenerDescuentoAdicional(cantidad, precio, categoria);
 
   div.innerHTML =
     "<p>" + neto + "</p>" +
     "<p>" + descuento + "</p>" +
     "<p>" + impuesto + "</p>" +
     "<p>" + impuestoAdicional + "</p>" +
+    "<p>" + descuentoAdicional + "</p>" +
     "<p>" + total + "</p>";
 });

@@ -848,9 +848,39 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d1e996363bcd7b837bde907f42ebdb3e7fc9abf6",
     "commitName": "feat: Mostrar el descuento adicional para la categoría Electronicos (1%)",
     "commitTimestamp": 1789026134076,
     "testId": 32
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1789026312226,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789026570122,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1789026624774,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el Precio Total añadiendo el descuento adicional.",
+    "commitTimestamp": 1789026715285,
+    "testId": 33
   }
 ]

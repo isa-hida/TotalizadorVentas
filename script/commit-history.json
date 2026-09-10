@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d1e996363bcd7b837bde907f42ebdb3e7fc9abf6",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T07:42:13.000Z",
       "message": "feat: Mostrar el descuento adicional para la categoría Electronicos (1%)",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/d1e996363bcd7b837bde907f42ebdb3e7fc9abf6"
     },
     "stats": {
       "total": 3,
@@ -603,6 +603,25 @@
       "date": "2026-09-10"
     },
     "coverage": 94.34,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T07:51:54.000Z",
+      "message": "feat: Mostrar el Precio Total añadiendo el descuento adicional.",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 94.44,
     "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"

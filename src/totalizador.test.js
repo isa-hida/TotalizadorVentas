@@ -37,9 +37,9 @@ describe("Totalizador", () => {
 
         expect(totalizador.calcularPrecioTotal(20, 3, "UT", "Bebidas alcoholicas")).toEqual("Precio total: $68.19");
         expect(totalizador.calcularPrecioTotal(20, 3, "NV", "Muebles")).toEqual("Precio total: $66.60");
-        expect(totalizador.calcularPrecioTotal(20, 3, "TX", "Electronicos")).toEqual("Precio total: $66.15");
+        expect(totalizador.calcularPrecioTotal(20, 3, "TX", "Electronicos")).toEqual("Precio total: $65.55");
         expect(totalizador.calcularPrecioTotal(20, 3, "AL", "Vestimenta")).toEqual("Precio total: $63.60");
-        expect(totalizador.calcularPrecioTotal(20, 3, "CA", "Alimentos")).toEqual("Precio total: $64.95");
+        expect(totalizador.calcularPrecioTotal(20, 3, "CA", "Alimentos")).toEqual("Precio total: $63.75");
     });
 
     it("deberia mostrar mensaje de error en el detalle si la cantidad o el precio son 0 o negativos", () => {
@@ -66,5 +66,8 @@ describe("Totalizador", () => {
         expect(totalizador.obtenerDescuentoAdicional(20, 3, "Bebidas alcoholicas")).toEqual("Descuento adicional para Bebidas alcoholicas(%0.00): $0.00");
         expect(totalizador.obtenerDescuentoAdicional(20, 3, "Material de escritorio")).toEqual("Descuento adicional para Material de escritorio(%1.50): $0.90");
         expect(totalizador.obtenerDescuentoAdicional(20, 3, "Electronicos")).toEqual("Descuento adicional para Electronicos(%1.00): $0.60");
+        expect(totalizador.obtenerDescuentoAdicional(20, 3, "Varios")).toEqual("Descuento adicional para Varios(%0.00): $0.00");
+        expect(totalizador.obtenerDescuentoAdicional(20, 3, "Vestimenta")).toEqual("Descuento adicional para Vestimenta(%0.00): $0.00");
+        expect(totalizador.obtenerDescuentoAdicional(20, 3, "Muebles")).toEqual("Descuento adicional para Muebles(%0.00): $0.00");
     });
 });

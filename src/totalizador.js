@@ -60,7 +60,8 @@ class Totalizador {
         let impuesto = parseFloat(this.calcularImpuesto(cantidad, precio, estado).split("$")[1]);
         let descuento = parseFloat(this.obtenerDescuento(cantidad, precio).split(": ")[1]);
         let impuesto_adicional = parseFloat(this.calcularImpuestoAdicional(cantidad, precio, categoria).split("$")[1]);
-        let total = neto + impuesto + impuesto_adicional - descuento;
+        let descuento_adicional = parseFloat(this.obtenerDescuentoAdicional(cantidad, precio, categoria).split("$")[1]);
+        let total = neto + impuesto + impuesto_adicional - descuento - descuento_adicional;
 
         return "Precio total: $" + total.toFixed(2);
     }
@@ -93,6 +94,7 @@ class Totalizador {
         } else if (categoria === "Electronicos") {
             porcentaje = 1;
         }
+
         let montoDescuento = neto * (porcentaje / 100);
         return "Descuento adicional para " + categoria + "(%" + porcentaje.toFixed(2) + "): $" + montoDescuento.toFixed(2);
     }

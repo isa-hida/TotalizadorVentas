@@ -1230,9 +1230,31 @@
     "testId": 49
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d9d23ad5a0e53dace8d94167a0774b1218a2893c",
     "commitName": "feat: Calcular el costo final de envío aplicando el descuento correspondiente al tipo de cliente seleccionado",
     "commitTimestamp": 1789031024093,
     "testId": 49
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789031194466,
+    "success": false,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1789031262176,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:Mostrar el precio total sumando el costo total de envío por tipo de cliente.",
+    "commitTimestamp": 1789031307000,
+    "testId": 50
   }
 ]

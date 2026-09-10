@@ -55,13 +55,13 @@ class Totalizador {
         return "Descuento (" + porcentaje + "%): " + montoDescuento.toFixed(2);
     }
 
-    calcularPrecioTotal(cantidad, precio, estado, categoria, peso_volumetrico) {
+    calcularPrecioTotal(cantidad, precio, estado, categoria, peso_volumetrico, tipoCliente) {
         let neto = parseFloat(this.calcularPrecioNeto(cantidad, precio).split(": ")[1]);
         let impuesto = parseFloat(this.calcularImpuesto(cantidad, precio, estado).split("$")[1]);
         let descuento = parseFloat(this.obtenerDescuento(cantidad, precio).split(": ")[1]);
         let impuesto_adicional = parseFloat(this.calcularImpuestoAdicional(cantidad, precio, categoria).split("$")[1]);
         let descuento_adicional = parseFloat(this.obtenerDescuentoAdicional(cantidad, precio, categoria).split("$")[1]);
-        let costo_envio = parseFloat(this.calcularCostoEnvioTotal(cantidad, precio, peso_volumetrico).split("$")[1]);
+        let costo_envio = parseFloat(this.calcularCostoEnvioTotal(cantidad, precio, peso_volumetrico, tipoCliente).split("$")[1]);
         let total = neto + impuesto + impuesto_adicional - descuento - descuento_adicional + costo_envio;
 
         return "Precio total: $" + total.toFixed(2);

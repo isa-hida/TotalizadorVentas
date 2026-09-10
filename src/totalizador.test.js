@@ -42,6 +42,8 @@ describe("Totalizador", () => {
         expect(totalizador.calcularPrecioTotal(20, 3, "CA", "Alimentos", 30, "Normal")).toEqual("Precio total: $163.75");
         expect(totalizador.calcularPrecioTotal(20, 3, "UT", "Bebidas alcoholicas", 30, "Especial")).toEqual("Precio total: $167.29");
         expect(totalizador.calcularPrecioTotal(20, 3, "NV", "Muebles", 30, "Especial")).toEqual("Precio total: $165.70");
+        expect(totalizador.calcularPrecioTotal(1000, 4, "CA", "Alimentos", 30, "Recurrente")).toEqual("Precio total: $8930.00");
+        expect(totalizador.calcularPrecioTotal(8000, 1, "TX", "Electronicos", 30, "Especial")).toEqual("Precio total: $47860.00");
     });
 
     it("deberia mostrar mensaje de error en el detalle si la cantidad o el precio son 0 o negativos", () => {

@@ -969,12 +969,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "45a805a2a7b36fa56274c60158252d2d3bab7c13",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T09:14:33.000Z",
       "message": "feat: Mostrar el descuento de monto fijo de $200 para cliente Especial con precio neto mayor a 7000 y categoría Electrónicos.",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/45a805a2a7b36fa56274c60158252d2d3bab7c13"
     },
     "stats": {
       "total": 3,
@@ -983,6 +983,25 @@
       "date": "2026-09-10"
     },
     "coverage": 95.92,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T09:20:20.000Z",
+      "message": "feat: Mostrar el precio total sumando el monto fijo.",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.96,
     "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"

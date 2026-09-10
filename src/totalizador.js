@@ -119,6 +119,14 @@ class Totalizador {
         }
         return "Costo de envio: $" + costoEnvio.toFixed(2);
     }
+
+    calcularCostoEnvioTotal(cantidad, precio, pesoVolumetrico) {
+        let costoUnitarioTexto = this.calcularCostoEnvio(cantidad, precio, pesoVolumetrico);
+        let costoUnitario = parseFloat(costoUnitarioTexto.split("$")[1]);
+        let totalEnvio = cantidad * costoUnitario;
+
+        return "Costo total de envio: $" + totalEnvio.toFixed(2);
+    }
 }
 
 export default Totalizador;

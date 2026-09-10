@@ -1054,9 +1054,31 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c70dffb09112e0e1ac724a46f71646ca10a78c30",
     "commitName": "feat: Mostrar el costo de envío por unidad de $9 para peso volumétrico mayor a 200.",
     "commitTimestamp": 1789028192827,
     "testId": 41
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1789028585267,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1789028655087,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:Calcular el costo total de envío multiplicando la cantidad de items por el costo de envío por unidad.",
+    "commitTimestamp": 1789028692649,
+    "testId": 42
   }
 ]

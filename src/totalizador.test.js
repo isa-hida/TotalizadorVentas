@@ -81,4 +81,8 @@ describe("Totalizador", () => {
         expect(totalizador.calcularCostoEnvio(20, 3, 130)).toEqual("Costo de envio: $8.00");
         expect(totalizador.calcularCostoEnvio(20, 3, 300)).toEqual("Costo de envio: $9.00");
     });
+    it("deberia calcular el costo total de envio multiplicando la cantidad por la tarifa por unidad", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularCostoEnvioTotal(10, 3, 30)).toEqual("Costo total de envio: $50.00");
+    });
 });

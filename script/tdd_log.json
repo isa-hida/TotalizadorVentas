@@ -796,9 +796,39 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "720c1c10cb936bc3b271b6c45340c0c934eb8131",
     "commitName": "feat: Mostrar el descuento adicional para la categoría Alimentos (2%)",
     "commitTimestamp": 1789025729985,
     "testId": 30
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1789025777951,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789025907166,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1789025927515,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el descuento adicional para la categoría Material de escritorio (1.5%)",
+    "commitTimestamp": 1789025970457,
+    "testId": 31
   }
 ]

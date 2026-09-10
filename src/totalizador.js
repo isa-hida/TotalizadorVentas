@@ -88,6 +88,8 @@ class Totalizador {
         let porcentaje = 0;
         if (categoria === "Alimentos") {
             porcentaje = 2;
+        } else if (categoria === "Material de escritorio") {
+            porcentaje = 1.5;
         }
         let montoDescuento = neto * (porcentaje / 100);
         return "Descuento adicional para " + categoria + "(%" + porcentaje.toFixed(2) + "): $" + montoDescuento.toFixed(2);

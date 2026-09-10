@@ -92,5 +92,6 @@ describe("Totalizador", () => {
         expect(totalizador.obtenerDescuentoEnvioCliente(20, 3, "Normal")).toEqual("Descuento en costo de envio para cliente Normal(%0.00): $0.00");
         expect(totalizador.obtenerDescuentoEnvioCliente(20, 3, "Recurrente")).toEqual("Descuento en costo de envio para cliente Recurrente(%0.50): $0.30");
         expect(totalizador.obtenerDescuentoEnvioCliente(20, 3, "Antiguo Recurrente")).toEqual("Descuento en costo de envio para cliente Antiguo Recurrente(%1.00): $0.60");
+        expect(totalizador.obtenerDescuentoEnvioCliente(20, 3, "Especial")).toEqual("Descuento en costo de envio para cliente Especial(%1.50): $0.90");
     });
 });

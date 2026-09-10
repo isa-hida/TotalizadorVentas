@@ -131,6 +131,9 @@ class Totalizador {
     obtenerDescuentoEnvioCliente(cantidad, precio, tipoCliente) {
         let neto = cantidad * precio;
         let porcentaje = 0;
+        if (tipoCliente === "Recurrente") {
+            porcentaje = 0.5;
+        }
         let montoDescuento = neto * (porcentaje / 100);
 
         return "Descuento en costo de envio para cliente " + tipoCliente + "(%" + porcentaje.toFixed(2) + "): $" + montoDescuento.toFixed(2);

@@ -836,12 +836,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "61535ca71e27c42061a64b7bddacbd71ea6a9740",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T08:52:34.000Z",
       "message": "feat: Mostrar el porcentaje de descuento en costo de envío para el cliente Normal (0%).",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/61535ca71e27c42061a64b7bddacbd71ea6a9740"
     },
     "stats": {
       "total": 14,
@@ -850,6 +850,25 @@
       "date": "2026-09-10"
     },
     "coverage": 96.25,
+    "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T08:55:01.000Z",
+      "message": "feat: Mostrar el porcentaje de descuento en costo de envío para el cliente Recurrente (0.5%).",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.34,
     "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"

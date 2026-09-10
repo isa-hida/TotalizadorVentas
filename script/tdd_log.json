@@ -1142,9 +1142,31 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "61535ca71e27c42061a64b7bddacbd71ea6a9740",
     "commitName": "feat: Mostrar el porcentaje de descuento en costo de envío para el cliente Normal (0%).",
     "commitTimestamp": 1789030356787,
     "testId": 45
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789030449233,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1789030476400,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el porcentaje de descuento en costo de envío para el cliente Recurrente (0.5%).",
+    "commitTimestamp": 1789030503638,
+    "testId": 46
   }
 ]

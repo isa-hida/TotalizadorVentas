@@ -1106,9 +1106,15 @@
     "testId": 43
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3cd946b153fad78fff53832d169db39d5e98b501",
     "commitName": "feat: Mostrar el precio total sumando el costo total de envío por peso volumetrico.",
     "commitTimestamp": 1789029429180,
     "testId": 43
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Elegir el tipo de cliente de una lista desplegable con el valor por defecto Normal.",
+    "commitTimestamp": 1789029740078,
+    "testId": 44
   }
 ]

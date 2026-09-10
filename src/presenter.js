@@ -4,6 +4,7 @@ const cantidadInput = document.querySelector("#cantidad");
 const precioInput = document.querySelector("#precio");
 const estadoSelect = document.querySelector("#estado");
 const estadoCategoria = document.querySelector("#categoria");
+const cliente = document.querySelector("#tipo_cliente");
 const form = document.querySelector("#totalizador-form");
 const div = document.querySelector("#resultado-div");
 const pesoVolumetricoInput = document.querySelector("#peso_volumetrico");
@@ -17,6 +18,7 @@ form.addEventListener("submit", (event) => {
   const estado = estadoSelect.value;
   const categoria = estadoCategoria.value;
   const pesoVolumetrico = Number.parseFloat(pesoVolumetricoInput.value);
+  const clienteValue = cliente.value;
   const detalle = totalizador.mostrarDetalle(cantidad, precio);
 
   if (detalle.startsWith("Error")) {

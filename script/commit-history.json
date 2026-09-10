@@ -798,17 +798,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3cd946b153fad78fff53832d169db39d5e98b501",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T08:37:08.000Z",
       "message": "feat: Mostrar el precio total sumando el costo total de envío por peso volumetrico.",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/3cd946b153fad78fff53832d169db39d5e98b501"
     },
     "stats": {
       "total": 35,
       "additions": 18,
       "deletions": 17,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.05,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T08:42:19.000Z",
+      "message": "feat: Elegir el tipo de cliente de una lista desplegable con el valor por defecto Normal.",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
       "date": "2026-09-10"
     },
     "coverage": 96.05,

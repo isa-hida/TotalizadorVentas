@@ -703,12 +703,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ed670cb9c3af073c198730342f7ec25f4847088a",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T08:08:59.000Z",
       "message": "feat:Mostrar el costo de envío por unidad de $6 para peso volumétrico de 41 a 80.",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/ed670cb9c3af073c198730342f7ec25f4847088a"
     },
     "stats": {
       "total": 3,
@@ -717,6 +717,25 @@
       "date": "2026-09-10"
     },
     "coverage": 95.38,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T08:12:07.000Z",
+      "message": "feat: Mostrar el costo de envío por unidad de $6.5 para peso volumétrico de 81 a 100.",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.52,
     "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"

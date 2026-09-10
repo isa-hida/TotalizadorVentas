@@ -48,4 +48,5 @@ describe("Totalizador", () => {
         expect(totalizador.mostrarDetalle(0, 10)).toEqual("Error: La cantidad y el precio deben ser mayores a 0");
         expect(totalizador.mostrarDetalle(5, -10)).toEqual("Error: La cantidad y el precio deben ser mayores a 0");
     });
+
 });

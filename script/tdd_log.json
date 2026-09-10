@@ -468,5 +468,29 @@
     "commitName": "fix: añadiendo un archivo a git ignore",
     "commitTimestamp": 1788863649762,
     "testId": 20
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788865383020,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788865721979,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788866034791,
+    "success": true,
+    "testId": 21
   }
 ]

@@ -85,4 +85,10 @@ describe("Totalizador", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularCostoEnvioTotal(10, 3, 30)).toEqual("Costo de envio: $50.00");
     });
+
+    it("deberia mostrar el porcentaje de descuento en costo de envio por tipo de cliente", () => {
+        let totalizador = new Totalizador();
+
+        expect(totalizador.obtenerDescuentoEnvioCliente(20, 3, "Normal")).toEqual("Descuento en costo de envio para cliente Normal(%0.00): $0.00");
+    });
 });

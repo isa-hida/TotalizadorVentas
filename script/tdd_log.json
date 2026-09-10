@@ -1112,9 +1112,39 @@
     "testId": 43
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9d21b0eab33edcec8bce9e5277f355e2a286f297",
     "commitName": "feat: Elegir el tipo de cliente de una lista desplegable con el valor por defecto Normal.",
     "commitTimestamp": 1789029740078,
     "testId": 44
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789029874961,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789030289698,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1789030325484,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el porcentaje de descuento en costo de envío para el cliente Normal (0%).",
+    "commitTimestamp": 1789030356787,
+    "testId": 45
   }
 ]

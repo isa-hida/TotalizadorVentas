@@ -55,13 +55,14 @@ class Totalizador {
         return "Descuento (" + porcentaje + "%): " + montoDescuento.toFixed(2);
     }
 
-    calcularPrecioTotal(cantidad, precio, estado, categoria) {
+    calcularPrecioTotal(cantidad, precio, estado, categoria, peso_volumetrico) {
         let neto = parseFloat(this.calcularPrecioNeto(cantidad, precio).split(": ")[1]);
         let impuesto = parseFloat(this.calcularImpuesto(cantidad, precio, estado).split("$")[1]);
         let descuento = parseFloat(this.obtenerDescuento(cantidad, precio).split(": ")[1]);
         let impuesto_adicional = parseFloat(this.calcularImpuestoAdicional(cantidad, precio, categoria).split("$")[1]);
         let descuento_adicional = parseFloat(this.obtenerDescuentoAdicional(cantidad, precio, categoria).split("$")[1]);
-        let total = neto + impuesto + impuesto_adicional - descuento - descuento_adicional;
+        let costo_envio = parseFloat(this.calcularCostoEnvioTotal(cantidad, precio, peso_volumetrico).split("$")[1]);
+        let total = neto + impuesto + impuesto_adicional - descuento - descuento_adicional + costo_envio;
 
         return "Precio total: $" + total.toFixed(2);
     }
@@ -117,7 +118,7 @@ class Totalizador {
         } else if (pesoVolumetrico > 200) {
             costoEnvio = 9.00;
         }
-        return "Costo de envio: $" + costoEnvio.toFixed(2);
+        return "Costo de envio por peso volumetrico: $" + costoEnvio.toFixed(2);
     }
 
     calcularCostoEnvioTotal(cantidad, precio, pesoVolumetrico) {
@@ -125,7 +126,7 @@ class Totalizador {
         let costoUnitario = parseFloat(costoUnitarioTexto.split("$")[1]);
         let totalEnvio = cantidad * costoUnitario;
 
-        return "Costo total de envio: $" + totalEnvio.toFixed(2);
+        return "Costo de envio: $" + totalEnvio.toFixed(2);
     }
 }
 

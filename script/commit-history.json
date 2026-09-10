@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d5b7635708b186b5a2a8041733e5aa5c4c414354",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T08:24:51.000Z",
       "message": "feat:Calcular el costo total de envío multiplicando la cantidad de items por el costo de envío por unidad.",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/d5b7635708b186b5a2a8041733e5aa5c4c414354"
     },
     "stats": {
       "total": 12,
@@ -793,6 +793,25 @@
       "date": "2026-09-10"
     },
     "coverage": 96,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T08:37:08.000Z",
+      "message": "feat: Mostrar el precio total sumando el costo total de envío por peso volumetrico.",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 18,
+      "deletions": 17,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.05,
     "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"

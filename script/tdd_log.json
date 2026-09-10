@@ -1076,9 +1076,39 @@
     "testId": 42
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d5b7635708b186b5a2a8041733e5aa5c4c414354",
     "commitName": "feat:Calcular el costo total de envío multiplicando la cantidad de items por el costo de envío por unidad.",
     "commitTimestamp": 1789028692649,
     "testId": 42
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1789029053459,
+    "success": false,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1789029144122,
+    "success": false,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1789029395701,
+    "success": true,
+    "testId": 43
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el precio total sumando el costo total de envío por peso volumetrico.",
+    "commitTimestamp": 1789029429180,
+    "testId": 43
   }
 ]

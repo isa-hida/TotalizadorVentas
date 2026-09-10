@@ -584,9 +584,47 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f3aa989ce6c575be768d1ba47d5dedf77bf730b7",
     "commitName": "feat: Mostrar el impuesto adicional para la categoría Bebidas alcohólicas (7%)",
     "commitTimestamp": 1789022514495,
     "testId": 24
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789022628981,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789022643949,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789022770615,
+    "success": false,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789022806090,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el impuesto adicional para la categoría Material de escritorio y Varios (0%)",
+    "commitTimestamp": 1789022872227,
+    "testId": 25
   }
 ]

@@ -53,6 +53,7 @@ describe("Totalizador", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularImpuestoAdicional(20, 3, "Alimentos")).toEqual("Impuesto para Alimentos(%0.00): $0.00");
         expect(totalizador.calcularImpuestoAdicional(20, 3, "Bebidas alcoholicas")).toEqual("Impuesto para Bebidas alcoholicas(%7.00): $4.20");
+        expect(totalizador.calcularImpuestoAdicional(20, 3, "Material de escritorio")).toEqual("Impuesto para Material de escritorio(%0.00): $0.00");
     });
 
 });

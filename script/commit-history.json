@@ -437,17 +437,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f3aa989ce6c575be768d1ba47d5dedf77bf730b7",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T06:41:51.000Z",
       "message": "feat: Mostrar el impuesto adicional para la categoría Bebidas alcohólicas (7%)",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/f3aa989ce6c575be768d1ba47d5dedf77bf730b7"
     },
     "stats": {
       "total": 13,
       "additions": 7,
       "deletions": 6,
+      "date": "2026-09-10"
+    },
+    "coverage": 92.86,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T06:47:49.000Z",
+      "message": "feat: Mostrar el impuesto adicional para la categoría Material de escritorio y Varios (0%)",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 1,
+      "deletions": 0,
       "date": "2026-09-10"
     },
     "coverage": 92.86,

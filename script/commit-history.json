@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "28a3563049f5b7c6955a91d2eebeef776099359b",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T06:56:49.000Z",
       "message": "feat: Mostrar el impuesto adicional para la categoría Vestimenta (2%)",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/28a3563049f5b7c6955a91d2eebeef776099359b"
     },
     "stats": {
       "total": 5,
@@ -527,6 +527,25 @@
       "date": "2026-09-10"
     },
     "coverage": 92.86,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T07:20:01.000Z",
+      "message": "feat: Mostrar el Precio Total añadiendo el impuesto adicional",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 12,
+      "deletions": 11,
+      "date": "2026-09-10"
+    },
+    "coverage": 93.02,
     "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"

@@ -32,14 +32,14 @@ describe("Totalizador", () => {
         expect(totalizador.obtenerDescuento(3000, 10)).toEqual("Descuento (15%): 4500.00");
     });
 
-    it("deberia calcular el precio total (neto + impuesto - descuento)", () => {
+    it("deberia calcular el precio total", () => {
         let totalizador = new Totalizador();
 
-        expect(totalizador.calcularPrecioTotal(20, 3, "UT")).toEqual("Precio total (descuento e impuesto): $63.99");
-        expect(totalizador.calcularPrecioTotal(20, 3, "NV")).toEqual("Precio total (descuento e impuesto): $64.80");
-        expect(totalizador.calcularPrecioTotal(20, 3, "TX")).toEqual("Precio total (descuento e impuesto): $63.75");
-        expect(totalizador.calcularPrecioTotal(20, 3, "AL")).toEqual("Precio total (descuento e impuesto): $62.40");
-        expect(totalizador.calcularPrecioTotal(20, 3, "CA")).toEqual("Precio total (descuento e impuesto): $64.95");
+        expect(totalizador.calcularPrecioTotal(20, 3, "UT", "Bebidas alcoholicas")).toEqual("Precio total: $68.19");
+        expect(totalizador.calcularPrecioTotal(20, 3, "NV", "Muebles")).toEqual("Precio total: $66.60");
+        expect(totalizador.calcularPrecioTotal(20, 3, "TX", "Electronicos")).toEqual("Precio total: $66.15");
+        expect(totalizador.calcularPrecioTotal(20, 3, "AL", "Vestimenta")).toEqual("Precio total: $63.60");
+        expect(totalizador.calcularPrecioTotal(20, 3, "CA", "Alimentos")).toEqual("Precio total: $64.95");
     });
 
     it("deberia mostrar mensaje de error en el detalle si la cantidad o el precio son 0 o negativos", () => {

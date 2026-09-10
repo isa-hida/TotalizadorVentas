@@ -696,9 +696,55 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "28a3563049f5b7c6955a91d2eebeef776099359b",
     "commitName": "feat: Mostrar el impuesto adicional para la categoría Vestimenta (2%)",
     "commitTimestamp": 1789023411980,
     "testId": 28
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789023678701,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789023995406,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789024145733,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789024712432,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789024747628,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el Precio Total añadiendo el impuesto adicional",
+    "commitTimestamp": 1789024804858,
+    "testId": 29
   }
 ]

@@ -644,9 +644,31 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a1948283cf4e7c16cb1f2d51bc62dfb6b3126f15",
     "commitName": "feat: Mostrar el impuesto adicional para la categoría Muebles(3%)",
     "commitTimestamp": 1789023080924,
     "testId": 26
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789023168156,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789023188887,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el impuesto adicional para la categoría Electronicos(4%)",
+    "commitTimestamp": 1789023229927,
+    "testId": 27
   }
 ]

@@ -530,9 +530,63 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d7032864671591dd996f1be7a7b5a770046d2112",
     "commitName": "feat: Mostrar el impuesto adicional para la categoría Alimentos (0%)",
     "commitTimestamp": 1789021770545,
     "testId": 23
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789021930366,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789021973619,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789022046581,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789022105800,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789022315309,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789022436848,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el impuesto adicional para la categoría Bebidas alcohólicas (7%)",
+    "commitTimestamp": 1789022514495,
+    "testId": 24
   }
 ]

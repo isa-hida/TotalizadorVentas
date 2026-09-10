@@ -418,17 +418,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d7032864671591dd996f1be7a7b5a770046d2112",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T06:29:27.000Z",
       "message": "feat: Mostrar el impuesto adicional para la categoría Alimentos (0%)",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/d7032864671591dd996f1be7a7b5a770046d2112"
     },
     "stats": {
       "total": 28,
       "additions": 27,
       "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 92.86,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T06:41:51.000Z",
+      "message": "feat: Mostrar el impuesto adicional para la categoría Bebidas alcohólicas (7%)",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 7,
+      "deletions": 6,
       "date": "2026-09-10"
     },
     "coverage": 92.86,

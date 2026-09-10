@@ -51,7 +51,8 @@ describe("Totalizador", () => {
 
     it("deberia mostrar el impuesto adicional de Alimentos", () => {
         let totalizador = new Totalizador();
-        expect(totalizador.calcularImpuestoAdicional(20, 3, "Alimentos")).toEqual("Impuesto para Alimentos(%0): $0.00");
+        expect(totalizador.calcularImpuestoAdicional(20, 3, "Alimentos")).toEqual("Impuesto para Alimentos(%0.00): $0.00");
+        expect(totalizador.calcularImpuestoAdicional(20, 3, "Bebidas alcoholicas")).toEqual("Impuesto para Bebidas alcoholicas(%7.00): $4.20");
     });
 
 });

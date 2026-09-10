@@ -66,10 +66,10 @@ class Totalizador {
 
     obtenerTasasImpuestoAdicional() {
         return {
-            "Bebidas alcoholicas": 0.07,
-            "Muebles": 0.03,
-            "Electronicos": 0.04,
-            "Vestimenta": 0.02,
+            "Bebidas alcoholicas": 0.07
+            //"Muebles": 0.03,
+            //"Electronicos": 0.04,
+            //"Vestimenta": 0.02
         };
     }
     calcularImpuestoAdicional(cantidad, precio, categoria) {
@@ -77,7 +77,7 @@ class Totalizador {
         let tasas = this.obtenerTasasImpuestoAdicional();
         let tasa = tasas[categoria] || 0;
         let impuesto = neto * tasa;
-        let porcentajeTexto = (tasa * 100).toString();
+        let porcentajeTexto = (tasa * 100).toFixed(2);
 
         return "Impuesto para " + categoria + "(%" + porcentajeTexto + "): $" + impuesto.toFixed(2);
     }

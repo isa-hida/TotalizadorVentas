@@ -70,4 +70,9 @@ describe("Totalizador", () => {
         expect(totalizador.obtenerDescuentoAdicional(20, 3, "Vestimenta")).toEqual("Descuento adicional para Vestimenta(%0.00): $0.00");
         expect(totalizador.obtenerDescuentoAdicional(20, 3, "Muebles")).toEqual("Descuento adicional para Muebles(%0.00): $0.00");
     });
+
+    it("deberia mostrar el costo de envio por peso volumetrico", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularCostoEnvio(20, 3, 10)).toEqual("Costo de envio: $0.00");
+    });
 });

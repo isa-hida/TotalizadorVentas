@@ -884,9 +884,39 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6bff3f9a97b63894bf2dd322d587caead5297e65",
     "commitName": "feat: Mostrar Peso Volumétrico del producto",
     "commitTimestamp": 1789026857260,
     "testId": 34
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1789027023879,
+    "success": false,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1789027195095,
+    "success": false,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1789027253917,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el costo de envío por unidad de $0 para peso volumétrico de 0 a 10.",
+    "commitTimestamp": 1789027292958,
+    "testId": 35
   }
 ]

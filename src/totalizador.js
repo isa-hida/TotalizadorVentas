@@ -98,6 +98,15 @@ class Totalizador {
         let montoDescuento = neto * (porcentaje / 100);
         return "Descuento adicional para " + categoria + "(%" + porcentaje.toFixed(2) + "): $" + montoDescuento.toFixed(2);
     }
+
+    calcularCostoEnvio(cantidad, precio, pesoVolumetrico) {
+        let neto = cantidad * precio;
+        let costoEnvio = 0;
+        if (pesoVolumetrico >= 0 && pesoVolumetrico <= 10) {
+            costoEnvio = 0;
+        }
+        return "Costo de envio: $" + costoEnvio.toFixed(2);
+    }
 }
 
 export default Totalizador;

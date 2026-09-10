@@ -6,6 +6,7 @@ const estadoSelect = document.querySelector("#estado");
 const estadoCategoria = document.querySelector("#categoria");
 const form = document.querySelector("#totalizador-form");
 const div = document.querySelector("#resultado-div");
+const pesoVolumetricoInput = document.querySelector("#peso_volumetrico");
 
 const totalizador = new Totalizador();
 form.addEventListener("submit", (event) => {
@@ -15,6 +16,7 @@ form.addEventListener("submit", (event) => {
   const precio = Number.parseFloat(precioInput.value);
   const estado = estadoSelect.value;
   const categoria = estadoCategoria.value;
+  const pesoVolumetrico = Number.parseFloat(pesoVolumetricoInput.value);
   const detalle = totalizador.mostrarDetalle(cantidad, precio);
 
   if (detalle.startsWith("Error")) {
@@ -28,6 +30,7 @@ form.addEventListener("submit", (event) => {
   const total = totalizador.calcularPrecioTotal(cantidad, precio, estado);
   const impuestoAdicional = totalizador.calcularImpuestoAdicional(cantidad, precio, categoria);
   const descuentoAdicional = totalizador.obtenerDescuentoAdicional(cantidad, precio, categoria);
+  const costoEnvio = totalizador.calcularCostoEnvio(cantidad, precio, pesoVolumetrico);
 
   div.innerHTML =
     "<p>" + neto + "</p>" +
@@ -35,5 +38,6 @@ form.addEventListener("submit", (event) => {
     "<p>" + impuesto + "</p>" +
     "<p>" + impuestoAdicional + "</p>" +
     "<p>" + descuentoAdicional + "</p>" +
-    "<p>" + total + "</p>";
+    "<p>" + costoEnvio + "</p>"
+  "<p>" + total + "</p>";
 });

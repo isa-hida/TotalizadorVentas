@@ -106,4 +106,13 @@ describe("Totalizador", () => {
         expect(totalizador.obtenerDescuentoFijoCliente(1000, 4, "Alimentos", "Recurrente")).toEqual("Descuento fijo cliente: $100.00");
         expect(totalizador.obtenerDescuentoFijoCliente(8000, 1, "Electronicos", "Especial")).toEqual("Descuento fijo cliente: $200.00");
     });
+
+    it("deberia mostrar un mensaje de error cuando el peso volumetrico es invalido (menor o igual a cero)", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularCostoEnvio(20, 3, 0)).toEqual("Error: El peso volumetrico debe ser mayor a 0");
+        expect(totalizador.calcularCostoEnvio(20, 3, -5)).toEqual("Error: El peso volumetrico debe ser mayor a 0");
+        expect(totalizador.calcularCostoEnvioTotal(20, 3, 0, "Normal")).toEqual("Error: El peso volumetrico debe ser mayor a 0");
+        expect(totalizador.calcularPrecioTotal(20, 3, "UT", "Bebidas alcoholicas", 0, "Normal")).toEqual("Error: El peso volumetrico debe ser mayor a 0");
+        expect(totalizador.calcularPrecioTotal(20, 3, "UT", "Bebidas alcoholicas", -10, "Normal")).toEqual("Error: El peso volumetrico debe ser mayor a 0");
+    });
 });

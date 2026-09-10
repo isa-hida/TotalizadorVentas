@@ -56,6 +56,11 @@ class Totalizador {
     }
 
     calcularPrecioTotal(cantidad, precio, estado, categoria, peso_volumetrico, tipoCliente) {
+        let costoEnvioTexto = this.calcularCostoEnvioTotal(cantidad, precio, peso_volumetrico, tipoCliente);
+        if (costoEnvioTexto.startsWith("Error")) {
+            return costoEnvioTexto;
+        }
+
         let neto = parseFloat(this.calcularPrecioNeto(cantidad, precio).split(": ")[1]);
         let impuesto = parseFloat(this.calcularImpuesto(cantidad, precio, estado).split("$")[1]);
         let descuento = parseFloat(this.obtenerDescuento(cantidad, precio).split(": ")[1]);
@@ -102,6 +107,9 @@ class Totalizador {
     }
 
     calcularCostoEnvio(cantidad, precio, pesoVolumetrico) {
+        if (pesoVolumetrico <= 0) {
+            return "Error: El peso volumetrico debe ser mayor a 0";
+        }
         let neto = cantidad * precio;
         let costoEnvio = 0;
         if (pesoVolumetrico >= 0 && pesoVolumetrico <= 10) {
@@ -124,6 +132,9 @@ class Totalizador {
 
     calcularCostoEnvioTotal(cantidad, precio, pesoVolumetrico, tipoCliente) {
         let costoUnitarioTexto = this.calcularCostoEnvio(cantidad, precio, pesoVolumetrico);
+        if (costoUnitarioTexto.startsWith("Error")) {
+            return costoUnitarioTexto;
+        }
         let costoUnitario = parseFloat(costoUnitarioTexto.split("$")[1]);
         let totalEnvio = cantidad * costoUnitario;
 

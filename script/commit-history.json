@@ -988,12 +988,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5ae725720d777a13cb2d988c9eee754759272a53",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T09:20:20.000Z",
       "message": "feat: Mostrar el precio total sumando el monto fijo.",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/5ae725720d777a13cb2d988c9eee754759272a53"
     },
     "stats": {
       "total": 5,
@@ -1003,6 +1003,25 @@
     },
     "coverage": 95.96,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T09:27:46.000Z",
+      "message": "feat: Mostrar un mensaje de error cuando se ingresa un peso volumétrico invalido (negativa o cero).",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 24,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.23,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }

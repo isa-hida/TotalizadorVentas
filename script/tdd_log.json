@@ -1334,9 +1334,39 @@
     "testId": 53
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5ae725720d777a13cb2d988c9eee754759272a53",
     "commitName": "feat: Mostrar el precio total sumando el monto fijo.",
     "commitTimestamp": 1789032022843,
     "testId": 53
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1789032353713,
+    "success": false,
+    "testId": 54
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 2,
+    "numTotalTests": 14,
+    "timestamp": 1789032375448,
+    "success": false,
+    "testId": 54
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789032436671,
+    "success": true,
+    "testId": 54
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar un mensaje de error cuando se ingresa un peso volumétrico invalido (negativa o cero).",
+    "commitTimestamp": 1789032469838,
+    "testId": 54
   }
 ]

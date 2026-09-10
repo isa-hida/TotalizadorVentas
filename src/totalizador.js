@@ -121,12 +121,18 @@ class Totalizador {
         return "Costo de envio por peso volumetrico: $" + costoEnvio.toFixed(2);
     }
 
-    calcularCostoEnvioTotal(cantidad, precio, pesoVolumetrico) {
+    calcularCostoEnvioTotal(cantidad, precio, pesoVolumetrico, tipoCliente) {
         let costoUnitarioTexto = this.calcularCostoEnvio(cantidad, precio, pesoVolumetrico);
         let costoUnitario = parseFloat(costoUnitarioTexto.split("$")[1]);
         let totalEnvio = cantidad * costoUnitario;
 
-        return "Costo de envio: $" + totalEnvio.toFixed(2);
+        let descuentoClienteTexto = this.obtenerDescuentoEnvioCliente(cantidad, precio, tipoCliente);
+        let montoDescuento = parseFloat(descuentoClienteTexto.split("$")[1]);
+
+        let costoFinalEnvio = totalEnvio - montoDescuento;
+        if (costoFinalEnvio < 0) costoFinalEnvio = 0;
+
+        return "Costo de envio: $" + costoFinalEnvio.toFixed(2);
     }
     obtenerDescuentoEnvioCliente(cantidad, precio, tipoCliente) {
         let neto = cantidad * precio;

@@ -1208,9 +1208,31 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "57239dda5a4163470e791d2a49e558a29d230423",
     "commitName": "feat: Mostrar el porcentaje de descuento en costo de envío para el cliente Especial (1.5%).",
     "commitTimestamp": 1789030721760,
     "testId": 48
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 2,
+    "numTotalTests": 12,
+    "timestamp": 1789030946325,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1789030980332,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Calcular el costo final de envío aplicando el descuento correspondiente al tipo de cliente seleccionado",
+    "commitTimestamp": 1789031024093,
+    "testId": 49
   }
 ]

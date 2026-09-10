@@ -81,9 +81,12 @@ describe("Totalizador", () => {
         expect(totalizador.calcularCostoEnvio(20, 3, 130)).toEqual("Costo de envio por peso volumetrico: $8.00");
         expect(totalizador.calcularCostoEnvio(20, 3, 300)).toEqual("Costo de envio por peso volumetrico: $9.00");
     });
-    it("deberia calcular el costo total de envio multiplicando la cantidad por la tarifa por unidad", () => {
+    it("deberia calcular el costo total de envio ", () => {
         let totalizador = new Totalizador();
-        expect(totalizador.calcularCostoEnvioTotal(10, 3, 30)).toEqual("Costo de envio: $50.00");
+        expect(totalizador.calcularCostoEnvioTotal(20, 3, 30, "Normal")).toEqual("Costo de envio: $100.00");
+        expect(totalizador.calcularCostoEnvioTotal(20, 3, 30, "Recurrente")).toEqual("Costo de envio: $99.70");
+        expect(totalizador.calcularCostoEnvioTotal(20, 3, 30, "Antiguo Recurrente")).toEqual("Costo de envio: $99.40");
+        expect(totalizador.calcularCostoEnvioTotal(20, 3, 30, "Especial")).toEqual("Costo de envio: $99.10");
     });
 
     it("deberia mostrar el porcentaje de descuento en costo de envio por tipo de cliente", () => {

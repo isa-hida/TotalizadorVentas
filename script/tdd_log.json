@@ -464,7 +464,7 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "25aa79a52c07ec7514d2524054a7379a5cea5e6d",
     "commitName": "fix: añadiendo un archivo a git ignore",
     "commitTimestamp": 1788863649762,
     "testId": 20
@@ -492,5 +492,17 @@
     "timestamp": 1788866034791,
     "success": true,
     "testId": 21
+  },
+  {
+    "commitId": "25690444b75b1f8ef7844daacca8d73606ef6c93",
+    "commitName": "fix:Por defecto CA en lista desplegable de Estados",
+    "commitTimestamp": 1789019240496,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Elegir la categoría del producto de una lista desplegable con el valor por defecto Varios",
+    "commitTimestamp": 1789020567018,
+    "testId": 22
   }
 ]

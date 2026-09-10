@@ -380,18 +380,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "25690444b75b1f8ef7844daacca8d73606ef6c93",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-08T10:34:06.000Z",
       "message": "fix: añadiendo un archivo a git ignore",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/25690444b75b1f8ef7844daacca8d73606ef6c93"
     },
     "stats": {
       "total": 3,
       "additions": 2,
       "deletions": 1,
       "date": "2026-09-08"
+    },
+    "coverage": 91.43,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T06:09:24.000Z",
+      "message": "feat: Elegir la categoría del producto de una lista desplegable con el valor por defecto Varios",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-10"
     },
     "coverage": 91.43,
     "test_count": 7,

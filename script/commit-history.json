@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "68ce7ac7b933bb2c29a6d2b31c807fd50b2f1172",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T07:39:29.000Z",
       "message": "feat: Mostrar el descuento adicional para la categoría Material de escritorio (1.5%)",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/68ce7ac7b933bb2c29a6d2b31c807fd50b2f1172"
     },
     "stats": {
       "total": 5,
@@ -584,6 +584,25 @@
       "date": "2026-09-10"
     },
     "coverage": 94.12,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T07:42:13.000Z",
+      "message": "feat: Mostrar el descuento adicional para la categoría Electronicos (1%)",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 94.34,
     "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"

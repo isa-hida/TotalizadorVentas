@@ -65,5 +65,6 @@ describe("Totalizador", () => {
         expect(totalizador.obtenerDescuentoAdicional(20, 3, "Alimentos")).toEqual("Descuento adicional para Alimentos(%2.00): $1.20");
         expect(totalizador.obtenerDescuentoAdicional(20, 3, "Bebidas alcoholicas")).toEqual("Descuento adicional para Bebidas alcoholicas(%0.00): $0.00");
         expect(totalizador.obtenerDescuentoAdicional(20, 3, "Material de escritorio")).toEqual("Descuento adicional para Material de escritorio(%1.50): $0.90");
+        expect(totalizador.obtenerDescuentoAdicional(20, 3, "Electronicos")).toEqual("Descuento adicional para Electronicos(%1.00): $0.60");
     });
 });

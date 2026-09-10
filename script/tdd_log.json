@@ -826,9 +826,31 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "68ce7ac7b933bb2c29a6d2b31c807fd50b2f1172",
     "commitName": "feat: Mostrar el descuento adicional para la categoría Material de escritorio (1.5%)",
     "commitTimestamp": 1789025970457,
     "testId": 31
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789026062130,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1789026094657,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el descuento adicional para la categoría Electronicos (1%)",
+    "commitTimestamp": 1789026134076,
+    "testId": 32
   }
 ]

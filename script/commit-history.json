@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9ededa1caa978b1394dd58ca47661d451c75bb16",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T06:09:24.000Z",
       "message": "feat: Elegir la categoría del producto de una lista desplegable con el valor por defecto Varios",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/9ededa1caa978b1394dd58ca47661d451c75bb16"
     },
     "stats": {
       "total": 12,
@@ -414,6 +414,25 @@
     },
     "coverage": 91.43,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T06:29:27.000Z",
+      "message": "feat: Mostrar el impuesto adicional para la categoría Alimentos (0%)",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 27,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 92.86,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

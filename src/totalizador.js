@@ -63,6 +63,24 @@ class Totalizador {
 
         return "Precio total (descuento e impuesto): $" + total.toFixed(2);
     }
+
+    obtenerTasasImpuestoAdicional() {
+        return {
+            "Bebidas alcoholicas": 0.07,
+            "Muebles": 0.03,
+            "Electronicos": 0.04,
+            "Vestimenta": 0.02,
+        };
+    }
+    calcularImpuestoAdicional(cantidad, precio, categoria) {
+        let neto = cantidad * precio;
+        let tasas = this.obtenerTasasImpuestoAdicional();
+        let tasa = tasas[categoria] || 0;
+        let impuesto = neto * tasa;
+        let porcentajeTexto = (tasa * 100).toString();
+
+        return "Impuesto para " + categoria + "(%" + porcentajeTexto + "): $" + impuesto.toFixed(2);
+    }
 }
 
 export default Totalizador;

@@ -49,4 +49,9 @@ describe("Totalizador", () => {
         expect(totalizador.mostrarDetalle(5, -10)).toEqual("Error: La cantidad y el precio deben ser mayores a 0");
     });
 
+    it("deberia mostrar el impuesto adicional de Alimentos", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularImpuestoAdicional(20, 3, "Alimentos")).toEqual("Impuesto para Alimentos(%0): $0.00");
+    });
+
 });

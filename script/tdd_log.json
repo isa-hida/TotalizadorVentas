@@ -500,9 +500,39 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9ededa1caa978b1394dd58ca47661d451c75bb16",
     "commitName": "feat: Elegir la categoría del producto de una lista desplegable con el valor por defecto Varios",
     "commitTimestamp": 1789020567018,
     "testId": 22
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789020951142,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789021310927,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789021364438,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el impuesto adicional para la categoría Alimentos (0%)",
+    "commitTimestamp": 1789021770545,
+    "testId": 23
   }
 ]

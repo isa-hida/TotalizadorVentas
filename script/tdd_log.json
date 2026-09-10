@@ -666,9 +666,39 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1df55766af7acd48db8357b30072fe5737bd2df1",
     "commitName": "feat: Mostrar el impuesto adicional para la categoría Electronicos(4%)",
     "commitTimestamp": 1789023229927,
     "testId": 27
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789023301622,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789023322923,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789023371845,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el impuesto adicional para la categoría Vestimenta (2%)",
+    "commitTimestamp": 1789023411980,
+    "testId": 28
   }
 ]

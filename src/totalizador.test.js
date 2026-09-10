@@ -57,6 +57,7 @@ describe("Totalizador", () => {
         expect(totalizador.calcularImpuestoAdicional(20, 3, "Varios")).toEqual("Impuesto para Varios(%0.00): $0.00");
         expect(totalizador.calcularImpuestoAdicional(20, 3, "Muebles")).toEqual("Impuesto para Muebles(%3.00): $1.80");
         expect(totalizador.calcularImpuestoAdicional(20, 3, "Electronicos")).toEqual("Impuesto para Electronicos(%4.00): $2.40");
+        expect(totalizador.calcularImpuestoAdicional(20, 3, "Vestimenta")).toEqual("Impuesto para Vestimenta(%2.00): $1.20");
     });
 
 });

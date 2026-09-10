@@ -494,17 +494,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1df55766af7acd48db8357b30072fe5737bd2df1",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T06:53:47.000Z",
       "message": "feat: Mostrar el impuesto adicional para la categoría Electronicos(4%)",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/1df55766af7acd48db8357b30072fe5737bd2df1"
     },
     "stats": {
       "total": 3,
       "additions": 2,
       "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 92.86,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T06:56:49.000Z",
+      "message": "feat: Mostrar el impuesto adicional para la categoría Vestimenta (2%)",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 3,
+      "deletions": 2,
       "date": "2026-09-10"
     },
     "coverage": 92.86,

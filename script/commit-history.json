@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7dc16cc6958dffca513ee94ac42ee7315d73b20f",
     "author": "isa-hida",
     "commit": {
       "date": "2026-09-10T07:20:01.000Z",
       "message": "feat: Mostrar el Precio Total añadiendo el impuesto adicional",
-      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/7dc16cc6958dffca513ee94ac42ee7315d73b20f"
     },
     "stats": {
       "total": 23,
@@ -547,6 +547,25 @@
     },
     "coverage": 93.02,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "isa-hida",
+    "commit": {
+      "date": "2026-09-10T07:35:29.000Z",
+      "message": "feat: Mostrar el descuento adicional para la categoría Alimentos (2%)",
+      "url": "https://github.com/isa-hida/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 93.88,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

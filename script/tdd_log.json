@@ -742,9 +742,63 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7dc16cc6958dffca513ee94ac42ee7315d73b20f",
     "commitName": "feat: Mostrar el Precio Total añadiendo el impuesto adicional",
     "commitTimestamp": 1789024804858,
     "testId": 29
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789025148617,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789025390999,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789025453131,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789025537018,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789025653437,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1789025691793,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el descuento adicional para la categoría Alimentos (2%)",
+    "commitTimestamp": 1789025729985,
+    "testId": 30
   }
 ]

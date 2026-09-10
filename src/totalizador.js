@@ -82,6 +82,16 @@ class Totalizador {
 
         return "Impuesto para " + categoria + "(%" + porcentajeTexto + "): $" + impuesto_adicional.toFixed(2);
     }
+
+    obtenerDescuentoAdicional(cantidad, precio, categoria) {
+        let neto = cantidad * precio;
+        let porcentaje = 0;
+        if (categoria === "Alimentos") {
+            porcentaje = 2;
+        }
+        let montoDescuento = neto * (porcentaje / 100);
+        return "Descuento adicional para " + categoria + "(%" + porcentaje.toFixed(2) + "): $" + montoDescuento.toFixed(2);
+    }
 }
 
 export default Totalizador;

@@ -60,4 +60,9 @@ describe("Totalizador", () => {
         expect(totalizador.calcularImpuestoAdicional(20, 3, "Vestimenta")).toEqual("Impuesto para Vestimenta(%2.00): $1.20");
     });
 
+    it("deberia calcular el descuento adicional por categoria", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerDescuentoAdicional(20, 3, "Alimentos")).toEqual("Descuento adicional para Alimentos(%2.00): $1.20");
+
+    });
 });

@@ -1032,9 +1032,31 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0f718567e664a64f29ab114f521560025178d176",
     "commitName": "feat: Mostrar el costo de envío por unidad de $8 para peso volumétrico de 101 a 200.",
     "commitTimestamp": 1789028086174,
     "testId": 40
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1789028135923,
+    "success": false,
+    "testId": 41
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1789028164428,
+    "success": true,
+    "testId": 41
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el costo de envío por unidad de $9 para peso volumétrico mayor a 200.",
+    "commitTimestamp": 1789028192827,
+    "testId": 41
   }
 ]

@@ -108,6 +108,8 @@ class Totalizador {
             costoEnvio = 3.50;
         } else if (pesoVolumetrico > 20 && pesoVolumetrico <= 40) {
             costoEnvio = 5.00;
+        } else if (pesoVolumetrico > 40 && pesoVolumetrico <= 80) {
+            costoEnvio = 6.00;
         }
         return "Costo de envio: $" + costoEnvio.toFixed(2);
     }

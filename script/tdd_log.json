@@ -1252,9 +1252,31 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "64091fad7cab5883708578bd19b82dd06ab032a6",
     "commitName": "feat:Mostrar el precio total sumando el costo total de envío por tipo de cliente.",
     "commitTimestamp": 1789031307000,
     "testId": 50
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1789031451587,
+    "success": false,
+    "testId": 51
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1789031519027,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el descuento de monto fijo de $100 para cliente Recurrente con precio neto mayor a 3000 y categoría Alimentos.",
+    "commitTimestamp": 1789031557808,
+    "testId": 51
   }
 ]

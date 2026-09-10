@@ -148,6 +148,15 @@ class Totalizador {
 
         return "Descuento en costo de envio para cliente " + tipoCliente + "(%" + porcentaje.toFixed(2) + "): $" + montoDescuento.toFixed(2);
     }
+
+    obtenerDescuentoFijoCliente(cantidad, precio, categoria, tipoCliente) {
+        let neto = cantidad * precio;
+        let descuentoFijo = 0;
+        if (tipoCliente === "Recurrente" && neto > 3000 && categoria === "Alimentos") {
+            descuentoFijo = 100;
+        }
+        return "Descuento fijo cliente: $" + descuentoFijo.toFixed(2);
+    }
 }
 
 

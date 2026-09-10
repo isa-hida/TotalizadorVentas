@@ -75,5 +75,6 @@ describe("Totalizador", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularCostoEnvio(20, 3, 10)).toEqual("Costo de envio: $0.00");
         expect(totalizador.calcularCostoEnvio(20, 3, 12)).toEqual("Costo de envio: $3.50");
+        expect(totalizador.calcularCostoEnvio(20, 3, 30)).toEqual("Costo de envio: $5.00");
     });
 });
